@@ -3,3 +3,5 @@ applications:
 - name: spring-music
   memory: 1G
   random-route: true
+  buildpacks:
+    - java_buildpack
